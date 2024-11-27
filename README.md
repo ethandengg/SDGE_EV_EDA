@@ -1,5 +1,5 @@
 # SDGE_EV_EDA
-This repository performs EDA on DMV and AFDC including osmnx, census data, and more
+This repository performs EDA on DMV and AFDC including osmnx, census data, and more. The data used in these EDAs are extracted from the "etl.ipynb" file
 
 - EDA on AFDC dataset and exploration of osmnx and cenpy are in AFDC_EDA.ipynb
 - EDA on DMV dataset is found in DMV_EDA.ipynb
