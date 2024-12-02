@@ -13,3 +13,6 @@ https://data.ca.gov/dataset/vehicle-fuel-type-count-by-zip-code
 The zip code shapefile needed to plot on maps can be found here: https://www2.census.gov/geo/tiger/TIGER2024/ZCTA520/
 
 All the packages and dependencies to run the notebooks locally are found in the "environment.yml" file
+
+## Instructions on how to run the code:
+Install all dependencies found in the environment.yml file and run etl.ipynb to get the csv data. With that data, you can then run all the code in AFDC_EDA.ipynb and DMV_EDA.ipynb to see the EDA done with the data.
