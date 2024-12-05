@@ -15,4 +15,21 @@ The zip code shapefile needed to plot on maps can be found here: https://www2.ce
 All the packages and dependencies to run the notebooks locally are found in the "environment.yml" file
 
 ## Instructions on how to run the code:
-Install all dependencies found in the environment.yml file and run etl.ipynb to get the csv data. With that data, you can then run all the code in AFDC_EDA.ipynb and DMV_EDA.ipynb to see the EDA done with the data.
+First clone the repository and activate the environment by running
+
+```bash
+git clone https://github.com/ethandengg/SDGE_EV_EDA.git
+cd SDGE_EV_EDA
+conda env create -f environment.yml
+conda activate dsc180a
+```
+
+Next download the shp file (tl_2024_us_zcta520.zip) in this link: 
+
+https://www2.census.gov/geo/tiger/TIGER2024/ZCTA520/
+
+and put that file in the data folder.
+
+Run etl.ipynb to get the csv data. With that data, you can then run all the code in AFDC_EDA.ipynb and DMV_EDA.ipynb to see the EDA done with the data.
+
+
